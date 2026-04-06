@@ -6,6 +6,7 @@
 @use '@angular/material' as mat;
 @use 'styles/theme-colors' as theme-colors;
 @use 'styles/overrides/toobar.scss';
+@use 'styles/overrides/_custom-colors.scss';
 
 html {
   @include mat.theme(
